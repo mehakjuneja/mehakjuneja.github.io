@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Embed</title>
+<link href="musicpage.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id = "box">
+    <img src= "cutmypic (1).png" />
+
+    <div id="host">
+
+    </div>
+  </div>
+  <h2> Queue </h2>
+<div class="Profile">
+<p id="demo"> </p>
+</div>
+  <form id="form1">
+  Song name:
+  <input name="song" type="text" size="20"/>
+  </form>
+  <button onclick="outputsong()">Submit</button>
+  <script>
+  var total="";
+  var count=1;
+  function outputsong() {
+  var input,song;
+  input=document.getElementById("form1") ;
+  song=count+". "+input.elements["song"].value;
+  total=total+"<br>"+song;
+  count=count+1;
+  document.getElementById("demo").innerHTML=total;
+          }
+  </script>
+
+   <script>
+
+   var sc = window.location.search.split("&");
+    var name = sc[0];
+    var nametemp = name.split("=");
+      var n = nametemp[1];
+    var grad = sc[1];
+    grad = grad.split("=");
+      var e = grad[1];
+    document.getElementById("host").innerHTML = n+"'s " + e;
+</script>
+
+  </body>
+
+  </html>

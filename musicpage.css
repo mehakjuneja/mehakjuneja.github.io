@@ -1,0 +1,81 @@
+body {
+  background-image: url("background2.jpg");
+  font-family: 'Righteous', cursive;
+  color: white;
+}
+h2{
+  text-align: right;
+  position: relative;
+  right: 150px;
+  bottom: 275px;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+button {
+  font-size: 30px;
+  font-family: 'Righteous', cursive;
+  width: 120px;
+  height: 70px;
+  background-color: #A02826;
+  opacity: 0.5;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+}
+.suggestbox {
+  position: fixed;
+  background-color: #AD9F6F;
+  top: 100px;
+  width: 1348px;
+  height: 182px;
+
+}
+.box {
+  background-color: #999799;
+  width: 60%;
+  height: 70%;
+
+}
+
+.Profile {
+  right: 200px;
+  font-family: 'Trebuchet MS';
+  text-align: right;
+  position: relative;
+  right: 200px;
+  bottom: 100px;
+  width: 300px;
+  float: right;
+
+
+}
+
+img {
+  width: 300px;
+  position: relative;
+}
+
+p {
+  Position: relative;
+  left:225px;
+  bottom: 200px;
+  text-align: left;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+#form1
+{
+  text-align: left;
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+#host {
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+}
