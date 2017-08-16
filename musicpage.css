@@ -11,6 +11,11 @@ h2{
   font-size: 50px;
   letter-spacing: 3px;
 }
+
+.eq {
+  left: 100px;
+}
+
 button {
   font-size: 30px;
   font-family: 'Righteous', cursive;
